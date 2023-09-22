@@ -1,42 +1,13 @@
-.container{
-    text-align: center;
-    background-color: #f5f5dc;
-    width: fit-content;
-    text-decoration: underline ;
-}
-
 .container1{
     background-color: #f5f5dc;
 }
 
 .container2{
-    background-color: #f5f5dc;
-
+    margin-left: 45px;
 }
-
 .container3{
-    background-color: #f5f5dc;
-    margin-left: 45px;
-}
-
-.container4{
-    text-align: center;
-    text-decoration: underline ;
-    margin-left: 45px;
-}
-
-.container5{
-    text-align: right;
-}
-.container6{
-    margin-left: 45px;
-}
-.container7{
     text-align: center;
     margin-top: 350px;
-}
-.container8{
-    background-color: red;
 }
 hr{
     position: relative;
