@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Login</title>
+</head>
+<body class="body">
+
+    <div class="container-1">
+
+        <div class="navbar">
+
+            <section name="navbar">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">EKS23 Dominik Bunte</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="https://www.google.de">GOOGLE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cv.html">Lebenslauf</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html"> Home </a>
+                                    </li>
+                                </ul>
+                                <span class="navbar-text">
+                                    
+                                </span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="content">  
+
+            <Section name="content">
+                <h1><Label>Login</Label></h1>
+                <div class="container">  
+                    <form class="row row-cols-lg-auto g-3 align-items-center">
+                        <div class="col-12">
+                            <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                                </div>
+                            </div>
+                        
+                        <div class="col-12">
+                            <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected>Choose...</option>
+                                <option value="1">Email</option>
+                                <option value="2">Google</option>
+                                <option value="3">Facebook</option>
+                            </select>
+                        </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                <label class="form-check-label" for="inlineFormCheck">
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href = 'cv.html';">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </Section>
+
+        </div>
+
+    </div>    
+        <div class="footer"> 
+
+            <section name="footer" >
+                <footer class="footer mt-auto py-3 bg-light">
+                    <div class="container">
+                        <span class="text-muted">Vielen Dank für Ihre Zeit</span>
+                    </div>
+            </footer>
+            </section>
+
+       </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

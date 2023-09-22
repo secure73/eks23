@@ -1,0 +1,161 @@
+.container-1{
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/R.jfif);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.navbar{
+    justify-content: center;
+} 
+
+.content{
+    margin: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    font-size: larger;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(147, 169, 184);
+    align-items: center;
+}
+
+.profile-image{
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 250px;
+}
+
+header /* ROT */{
+        /* dieser kontainer ist rot. auskommentiert, damit es nicht Augenkrebs wird.*/
+   margin-top: 0px;
+   width: 100%;
+   height: 250px;
+   font-size: 300%;
+   text-align: center;
+   padding-top: 1px;
+/*    background-color: red;*/   
+    background-image: url(/assets/images/OIP.jfif);
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+
+}
+
+.container-03 /* GRÜN */{
+    /* dieser kontainer ist grün. auskommentiert, damit es nicht Augenkrebs wird.*/
+    width: auto;
+    height: auto;
+    display: flex;
+/*     background-color: green; */
+    background-image: url(/assets/images/cokies.jfif);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+    
+}
+
+.container-02{
+   margin-top: 0px ;
+   width: 400px;
+   height: 1000px;
+   /* background-color: rgb(106, 140, 212); */
+    background-image: url(/assets/images/OIP.jfif);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+   
+
+   .symbol{
+       width: 25px;
+       height: 20px;
+       background-color: rgb(95, 126, 228);
+   }
+   .box{
+       width: 400px;
+       height: 75px;
+       font-size: 120%;
+       text-align: center;
+   }
+   .strich{
+       width: 350px;
+       height: 10px;
+       background-color: black;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 100%;
+   }
+   .fähigkeiten{
+       margin-top: 20px;
+       text-align: center;
+       font-size: 160%;
+   }
+   .aufzählung{
+       margin-bottom: 20px;
+       margin-left: 50px;
+       text-align: left;
+       font-size: 115%;
+       
+   }
+}
+
+.promotion{
+    text-align: right;
+}
+
+.time{
+    height: 300px;
+    margin-right: 10px;
+    text-align: right;
+    /* background-color: rgb(145, 235, 235); */
+    background-image: url(/assets/images/time.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border-bottom: solid 5px;
+    border-right: solid darkblue 5px;
+}
+
+.beruf{
+    height: 300px;
+    margin-right: 50px;
+    text-align: left;
+    /* background-color: rgb(157, 228, 204); */
+    background-image: url(/assets/images/action.jfif);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border-bottom: solid 5px;
+}
+
+.back{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 300%;
+    border: solid 5px;    
+    border-radius: 100%;
+    background-color: brown;
+}
+
+.back:hover{
+    background-color: rgb(113, 173, 226);
+}
+.table{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    border: solid black 1px;
+    border-radius: 20px;
+}
