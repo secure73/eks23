@@ -1,0 +1,26 @@
+.divbody{
+    background-color: darkslategray;
+  }
+  
+ 
+ 
+ 
+  .divlogin{
+    margin-top: 10%;
+    margin-left: 0%;
+    color: aliceblue;
+  }
+ 
+  .divfoto{
+    margin-top: -250px;
+   margin-left: 400px;
+  }
+ 
+  .divline{
+    border-bottom: 10px solid black;
+    width: 100%;
+  }
+  
+  .footercv{
+    margin-top: 50px;
+ }
