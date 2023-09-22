@@ -1,0 +1,145 @@
+.body{
+    background-color: #ff0000;
+}
+.card-header, label{
+    color: #ffd700;
+}
+.card{
+    background-color: #000000;
+}
+.btn-primary{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.btn-primary:hover {
+    color: #000000;
+}
+#ironManLogo {
+    float: left;
+    background-image: url("../images/ironman-logo.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+}
+#starkEnterprisesLogo {
+    float: right;
+    background-image: url("../images/stark-enterprises-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+}
+.iron-man-navbar{
+    background-color: #000;
+    border-bottom: 2px solid #FF0000;
+    padding: 10px 0;
+}
+.iron-man-navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.iron-man-navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+.iron-man-navbar a{
+    text-decoration: none;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s, background-color 0.3s;
+}
+.iron-man-navbar a:hover{
+    color: #ffd700;
+    background-color: #FF0000;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.resume {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    border: 4px solid #FF0000;
+    background-color: #000;
+    text-align: left;
+}
+.resume header {
+    background-size: cover;
+    padding: 20px;
+}
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h4,
+.resume h5,
+.resume h6 {
+    font-size: 36px;
+    margin: 0;
+    color: #FF0000;
+}
+.resume ul {
+    font-size: 24px;
+    margin: 5px 0;
+    color: #FF0000;
+}
+.resume p {
+    font-size: 24px;
+    margin: 5px 0;
+    color: #FF0000;
+}
+.experience,
+.skills {
+    padding: 20px;
+    color: #fff;
+}
+.iron-man {
+    border-color: #FF0000;
+    color: #FF0000;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.btn-footer {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn-back {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+hr {
+    border: #000;
+}
+.red-div {
+    color: red;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .green-div {
+    color: green;
+    padding: 10px;
+  }
