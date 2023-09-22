@@ -1,0 +1,59 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(128, 128, 128, 0.238);
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.inhalt {
+  background-color: green;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.login {
+  text-align: center;
+  padding-top: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+
+table {
+  margin-left: 400px;
+}
+
+th,
+td {
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+foto {
+  margin-left: 300px;
+}
+
+.links{
+  background-color: red;
+  margin-top: 20px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
