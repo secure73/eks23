@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="login.css">
-</head>
-<body>
-  <div class="container mt-5">
-    <div class="login-container">
-      <h1 class="text-center">Login</h1>
-      <form action="resume.html" method="post">
-        <div class="form-group">
-          <label for="email">E-Mail:</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="E-Mail" required>
-        </div>
-        <div class="form-group">
-          <label for="password">Passwort:</label>
-          <input type="password" class="form-control" id="password" name="password" placeholder="Passwort" required>
-        </div>
-        <button type="submit" class="btn btn-primary login-button">Anmelden</button>
-      </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/assests/css/main.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="login-container">
+        <h1 class="text-center">Login</h1>
+        <form>
+          <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="E-Mail"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Passwort:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="Passwort"
+              required
+            />
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary login-button"
+            onclick="openResume()"
+          >
+            Anmelden
+          </button>
+        </form>
+      </div>
     </div>
-  </div>
 
-  <link rel="stylesheet" type="text/css" href="main.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    // JavaScript, um immer die resume.html zu öffnen, unabhängig von den eingegebenen Daten
-    document.addEventListener("DOMContentLoaded", function() {
-      const form = document.querySelector("form");
-      form.addEventListener("submit", function(event) {
-        event.preventDefault();
+    <script>
+      function openResume() {
         window.location.href = "resume.html";
-      });
-    });
-  </script>
-</body>
+      }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
-
-

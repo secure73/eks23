@@ -1,79 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-  <div class="container mt-5">
-    <div class="login-container">
-      <h1 class="text-center">Resume</h1>
-      
-      <!-- Div mit rotem Hintergrund aus main.css -->
-      <div class="red-background">
-        <h2>Über Max Mustermann</h2>
-        <p>Max Mustermann ist ein erfahrener Softwareentwickler mit mehreren Jahren Berufserfahrung. Er ist spezialisiert auf Webentwicklung und hat umfangreiche Kenntnisse in HTML, CSS, JavaScript und verschiedenen Web-Frameworks.</p>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/assests/css/main.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="login-container">
+        <h1 class="text-center">Resume</h1>
 
-      <!-- Div mit grünem Hintergrund aus main.css -->
-      <div class="green-background">
-        <h2>Berufliche Erfahrung</h2>
+        <div class="red-background custom-div">
+          <h2>Über Max Mustermann</h2>
+          <p>
+            Max Mustermann ist ein erfahrener Softwareentwickler mit mehreren
+            Jahren Berufserfahrung. Er ist spezialisiert auf Webentwicklung und
+            hat umfangreiche Kenntnisse in HTML, CSS, JavaScript und
+            verschiedenen Web-Frameworks.
+          </p>
+        </div>
+
+        <div class="green-background custom-div">
+          <h2>Berufliche Erfahrung</h2>
+          <ul>
+            <li>Senior Web Developer bei XYZ Company (seit 2010)</li>
+            <li>Web Developer bei ABC Solutions (2005-2010)</li>
+          </ul>
+          <h2>Ausbildung</h2>
+          <ul>
+            <li>
+              Bachelor of Science in Informatik, Universität Beispielstadt
+              (2005)
+            </li>
+          </ul>
+        </div>
+
+        <table class="table table-bordered">
+          <thead class="thead-light">
+            <tr>
+              <th>Projekt</th>
+              <th>Beschreibung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Projekt A</td>
+              <td>Entwicklung einer E-Commerce-Website</td>
+            </tr>
+            <tr>
+              <td>Projekt B</td>
+              <td>Integration von Zahlungsgateways</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <img
+          src="/assests/images/AngryCat.jpg"
+          alt="Max Mustermann"
+          class="img-fluid"
+          width="300"
+        />
+
+        <h2>Technische Fähigkeiten</h2>
         <ul>
-          <li>Senior Web Developer bei XYZ Company (seit 2010)</li>
-          <li>Web Developer bei ABC Solutions (2005-2010)</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
         </ul>
-        <h2>Ausbildung</h2>
-        <ul>
-          <li>Bachelor of Science in Informatik, Universität Beispielstadt (2005)</li>
-        </ul>
+
+        <a href="https://www.google.com" target="_blank" class="btn btn-primary"
+          >Zu Google</a
+        >
+        <a href="login.html" class="btn btn-secondary">Zurück zur Startseite</a>
       </div>
-
-      <!-- Tabelle -->
-      <table class="table table-bordered">
-        <thead class="thead-light">
-          <tr>
-            <th>Projekt</th>
-            <th>Beschreibung</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Projekt A</td>
-            <td>Entwicklung einer E-Commerce-Website</td>
-          </tr>
-          <tr>
-            <td>Projekt B</td>
-            <td>Integration von Zahlungsgateways</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <!-- Bild -->
-      <img src="/assets/images/AngryCat.jpg" alt="Max Mustermann" class="img-fluid" width="300">
-
-      <!-- Liste -->
-      <h2>Technische Fähigkeiten</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-      </ul>
-
-      <!-- Links -->
-      <a href="https://www.google.com" target="_blank" class="btn btn-primary">Zu Google</a>
-      <a href="login.html" class="btn btn-secondary">Zurück zur Startseite</a>
     </div>
-  </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
-
-
