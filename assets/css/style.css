@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("../images/beach-2836300_1920.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    backdrop-filter: blur(5px);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    border-radius: 15px;
+  }
+  
+  form {
+    width: 300px;
+  }
+  
+  h1 {
+    color: darkred;
+    font-size: 36px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  h2 {
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .wrapper .input-Box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  .input-Box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .input-Box input::placeholder {
+    color: aliceblue;
+  }
+  
+  .input-Box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14, 5px;
+    margin: -15px 0 15px;
+  }
+  
+  .remember-forgot label input {
+    accent-color: black;
+    margin-right: 3px;
+  }
+  
+  .remember-forgot a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .wrapper .reg-link {
+    font-size: 14, 5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  .reg-link p {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .reg-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .reg-link p a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn a:hover {
+    text-decoration: underline;
+    color: darkred;
+  }
+  summary {
+    color: darkred;
+    font-size: 18px;
+  }
+  
+  .content {
+    background-color: green;
+    border: solid;
+    position: fixed;
+    height: auto;
+    width: 400px;
+    left: 10vh;
+    top: 10vh;
+  }
+  
+  li {
+    text-align: left;
+    margin-left: 5vh;
+  }
+  
+  .pic {
+    position: absolute;
+    max-width: 300px;
+    top: 10vh;
+    right: 10vh;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .pic img {
+    max-width: 100%;
+    border-radius: 20px;
+    filter: opacity(0.5);
+  }
+  
+  details {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  details:hover {
+    cursor: pointer;
+  }
+  
+  details:hover summary ~ * {
+    display: block;
+  }
+  
+  summary ~ * {
+    display: none;
+  }
+  .logoutbtn {
+    position: fixed;
+    bottom: 40px;
+    left: 5px;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: darkred;
+    text-align: center;
+    border: solid rgba(193, 187, 187, 0.47);
+  }
+  .google{
+    position: fixed;
+    bottom: 80px;
+    left: 5px;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: darkred;
+    text-align: center;
+    border: solid rgba(193, 187, 187, 0.47);
+  }
+  .logoutbtn a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .google a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .link {
+    position: fixed;
+    bottom: 40px;
+    left: 90px;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: darkred;
+    text-align: center;
+    border: solid rgba(193, 187, 187, 0.47);
+  }
+  .link a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  footer {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    height: auto;
+    border-radius: 15px;
+    background-color: darkred;
+    color: whitesmoke;
+    text-align: center;
+    border: solid rgba(193, 187, 187, 0.47);
+  }
+  
