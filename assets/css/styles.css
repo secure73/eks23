@@ -1,0 +1,155 @@
+.prestige1{
+	position: absolute;
+	float: left;
+	left:20%;
+	top: 18%;
+	width: 7%;
+}
+.prestige2{
+	position: absolute;
+	float: right;
+	right:20%;
+	top: 18%;
+	width: 7%;
+}
+
+p{
+	color: white;
+}
+
+.buck{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	margin-bottom: 30px;
+  }
+
+.bucko{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	border: 3px solid red;
+	background-color: rgba(0, 0, 0, 0.899);
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+label{
+	color: white;
+}
+
+.ititle{
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: red;
+}
+
+.decla{
+	font-size: 22px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+.topnav {
+	background-color: rgba(14, 13, 13, 0.829);
+	overflow:hidden;
+	width: 100%;
+}
+  
+.topnav a {
+	float:left;
+	color: #f2f2f2;
+	text-align:center;
+	padding: 20px;
+	text-decoration:underline;
+	font-size: 25px;
+	font-weight: bold;
+	border: 1px solid black;
+	width: 19.5%;
+	position: sticky;
+}
+  
+.topnav a:hover {
+	background-color: #940202b0;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+  
+.topnav a.active {
+	background-color: #55535380;
+	color: white;
+	border: 1px solid black;
+}
+
+.benchpress{
+	color: white;
+	font-weight: bold;
+	font-size:350px;
+	text-align: center;
+}
+
+section{
+	width:660px auto;
+	height: 300px auto;
+	margin-top:0px auto;
+	margin-left:350px;
+	margin-right: 350px;
+	border: 3px solid white;
+	background-color: rgba(0, 0, 0, 0.699);
+	padding: 7px;
+	text-align: center;
+}
+
+/*Anpassungen für Navbar und Gif Images
+um sich an verschiedene Fenstergrößen anpassen zu können*/ 
+
+@media screen and (max-width: 1500px) {
+	.topnav a {
+	  float: left;
+	  display: block;
+	  max-width: 22%;
+	  text-align: left;
+	  font-size: 20px;
+	  padding: 15px;
+	  text-align:center;	
+	}
+  }
+ 
+  @media screen and (max-width: 600px) {
+	.topnav a {
+	  float: left;
+	  display:block;
+	  max-width: 22%;
+	  text-align: left;
+	  font-size:auto;
+	  padding: 5px;
+	  text-align:center;	
+	}
+  }
+
+@media screen and (max-width: 1000px) {
+	.prestige1{display: none;}
+	.prestige2{display: none;}		
+	}
+
+@media screen and (max-width: 1500px) {
+		.prestige1{
+			float: left;
+			left:7vmax;
+			width: 7%;
+			top: 14%;
+		}
+		.prestige2{
+			float: right;
+			right: 7vmax;
+			width: 7%;
+			top: 14%;
+		}			
+	}
