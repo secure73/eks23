@@ -92,12 +92,14 @@ td:nth-child(3), td:nth-child(4) {
     text-align: right;
 }
 .red-div {
-    color: red;
+    background-color: red;
+    color: black;
     padding: 10px;
   }
 
   .green-div {
-    color: green;
+    background-color: green;
+    color: black;
     padding: 10px;
   }
 .resume {
