@@ -112,3 +112,7 @@ form {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
+footer {
+    font-size: 14px;
+    padding: 250px 0 0 20px;
+}
