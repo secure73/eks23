@@ -1,0 +1,35 @@
+.l_body {
+    background-color: rgb(97, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.l_login_form {
+    background-color: rgb(44, 44, 44);
+    margin: 5% 35%;
+    padding: 5% 5%;
+    color: azure;
+    border-radius: 15%;
+}
+#l_cap_login {
+    text-align: center;
+}
+.l_input {
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+.l_body label {
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+.l_button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.l_login_form .l_web_link {
+    text-align: center;
+}
+.l_login_form a:link {
+    color:beige
+}
+.l_login_form a:visited {
+    color:rgb(145, 145, 131)
+}
