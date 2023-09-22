@@ -1,0 +1,70 @@
+.full-page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(file:///C:/git/assets/images/1325121.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  header {
+    font-size: 30px;
+    color: black;
+    margin-left: 38%;
+    position: top;
+  }
+  
+  .Photo {
+    width: 32%;
+    object-fit: cover;
+    height: 300px;
+    float: right;
+  }
+  
+  body {
+    background-color: beige;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+  li {
+    text-align: left;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4; /* Google-Blau */
+    color: #fff; /* Weiße Textfarbe */
+    text-decoration: none; /* Keine Unterstreichung des Links */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Sanfter Farbübergang beim Hover-Effekt */
+  }
+  .button:hover {
+    background-color: #357ae8;
+  }
+  .stylish-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4; /* Google-Blau */
+    color: #fff; /* Weiße Textfarbe */
+    text-decoration: none; /* Keine Unterstreichung des Links */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Sanfter Farbübergang beim Hover-Effekt */
+  }
+  
+  .stylish-link:hover {
+    background-color: #357ae8; /* Dunkleres Blau bei Hover */
+  }
+  .hintergrund1{
+    background-color: red;
+  }
+  .hintergrund2{
+    background-color: green;
+  }
