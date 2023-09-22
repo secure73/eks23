@@ -1,0 +1,100 @@
+h1 {
+    background-color: lightblue;
+    border: solid 3px black;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.login {
+
+    border: solid 2px black;
+    border-radius: 0px 0px 60px 60px;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    top: 250px;
+    left: 750px;
+    position: absolute;
+    background-color: lightblue;
+    z-index: 1;
+}
+
+button {
+
+    margin: 10px;
+    padding: 3px;
+    top: 235px;
+    position: absolute;
+    left: 125px;
+    z-index: 2;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.feet {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 3px;
+    color: black;
+    border-top: solid 1px black;
+    bottom: 0;
+    background-color: lightgreen;
+    border-radius: 90px 90px 0 0;
+}
+
+.picture {
+    border: solid 2px black;
+    border-radius: 90px 90px 90px 90px;
+    position: absolute;
+    margin-top: 35px;
+    left: 650px;
+    height: 120px;
+    width: 140px;
+    z-index: 1;
+}
+
+.general {
+    height: 65%;
+    width: 45%;
+    background-color: lightgray;
+    background-size: auto;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 175px;
+    z-index: 0;
+}
+
+.education {
+    height: 75%;
+    width: 45%;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 5px;
+    left:870px;
+    border-left: solid 1px black;
+    float: left;
+    z-index: 0;
+    
+}
+
+.navbar{
+    height: 40%;
+    width: 40%;
+    position: absolute;
+}
+
+.foot {
+    background-color: lightgreen;
+}
