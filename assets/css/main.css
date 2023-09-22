@@ -1,0 +1,523 @@
+body {
+    background-color: rgba(172, 172, 172, 0.171);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+#menu{
+  background-color: rgb(216, 216, 216);
+    height: 100px;
+    width: 100%;
+    display: FLEX;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+#menu p {
+    width: auto;
+    text-align: center;
+ 
+}
+
+    #pic1 {
+        background-image: url("../images/3.jpg");
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        margin-right: 700px;
+    }
+
+#menu a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+
+}
+
+.hover a:hover {
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+
+}
+
+.hover{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+
+#site1 {
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+#seite1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#einleitung {
+    width: 300px;
+    margin-left: 110px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(180, 180, 180);
+}
+
+#maxi {
+margin-left: 100px;
+padding-top: 30px;
+}
+
+
+
+#third {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.icons {
+    display: flex;
+justify-content: flex-start;
+}
+
+#fbicon {
+background-image: url("../images/google.png");
+background-size: cover;
+width: 40px;
+height: 40px;
+}
+
+#twittericon {
+    background-image: url("../images/twitter.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    }
+
+#instaicon {
+    margin-top: 10px;
+    background-image: url("../images/insta.jpg");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    }
+
+
+#telefonicon {
+    background-image: url("../images/telefon.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+#emailicon {
+    background-image: url("../images/email.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+#stadt {
+    
+    margin-top: 12px;
+}
+
+
+#standorticon {
+    background-image: url("../images/standort.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#personbild {
+    background-image: url("../images/p1.png");
+     background-size: cover;
+    width: 350px;
+    height: 450px;
+    margin-top: 220px;
+    margin-right: 450px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    }
+
+
+
+ul {
+padding-left: 50x;
+list-style: none;
+
+}
+
+#site2 {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+    padding-right: 100px;
+}
+
+#ausbildung {
+    padding-left: 80px;
+    background-color: red;
+}
+
+#site3 {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+   
+}
+
+#site4 {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+   
+}
+
+
+#beruf {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#zeug a{
+    text-decoration: none;
+    color: black;
+    }
+
+    #zeug a:hover{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+     
+        }
+ #beruf2 a:hover{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            }
+    
+
+#beruf2 a{
+text-decoration: none;
+color: black;
+}
+
+
+
+#site4 {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#kenntnisse {
+    padding-left: 80px;
+    list-style: none;
+  
+}
+
+
+
+#startphoto {
+    width: 100%;
+margin-top: 200px;
+}
+
+#photocon1 {
+    margin-left: 738px;
+}
+
+#menu img {
+   margin-right: 530px;
+}
+
+
+
+#third {
+    display: flex;
+    justify-content: space-between;
+}
+
+#telefonicon {
+    background-image: url("../images/telefon.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+#second img {
+    box-shadow: 9px 7px 13px -5px rgba(99, 99, 99, 0.596);
+}
+
+.Jahr {
+   font-weight: bolder; 
+   margin-top: 40px;
+   width: 300px;
+}
+
+.blocked {
+	text-align: justify;
+	text-align-last: none;
+}
+
+#az1 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 80px;
+    margin-left: 80PX;
+    margin-top: 80px;
+}
+
+#az2 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+#az3 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+#az4 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+#zeug1 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 50PX;
+    margin-top: 80px;
+}
+
+
+#zeug2 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#zeug3 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#zeug4 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.down {
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+
+
+#backbutton {
+  
+   text-align: center;
+   margin-top: 50px;
+
+}
+
+#backbutton button {
+margin-top: 25px;
+}
+
+#backbutton a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#zeug {
+    display: flex;
+justify-content: left;
+margin-top: 80px;
+}
+
+#main {
+    margin-left: 80px;
+}
+
+#main1 {
+    margin-top: 200px;
+}
+
+#pw {
+    margin-left: 45px;
+}
+
+#back {
+    margin-top: 50px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abstand {
+    margin-top: 1050px ;
+}
+
+.abstande {
+    margin-bottom: 50px;
+}
+
+#beruftxt {
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 400px;
+    hyphens: auto; 
+	text-align: justify;
+    background-color: green;
+}
+
+#beruf1 {
+    margin-left: 100px;
+}
+
+#beruf3 {
+    margin-left: 100px;
+}
+
+.runter {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.runter1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icons a:hover {
+color: black;
+}
+
+#mailing {
+    margin-top: 10px;
+}
+
+.einzug {
+    margin-left: -10px;
+}
+
+#einzug1 {
+    margin-top: 10px;
+    margin: 8px;
+}   
+
+#con1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+h1 {
+    padding: 15px
+  
+}
+
+#con2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    padding-top: 40px;
+}
+
+#bt1 {
+    margin-right: 20px;
+}
+
+#accordion {
+width: 800px;
+height: 400px;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+#anleitung {
+margin-left: 50px;
+margin-top: 50px;
+}
+
+#hint {
+    background-color: rgb(192, 192, 192);
+}
+
+#con3 {
+    background-color: azure;
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;;
+}
+
+footer {
+    background-color: grey;
+   height: 80px;
+}
+
+#tabelle td{
+    border: 1px solid black;
+}
+
+#tabelle tr{
+    border: 1px solid black;
+}
