@@ -1,0 +1,61 @@
+ body {
+          background-image: url("/assets/images/backgroundl.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .navioben {
+ margin-top: 0%;
+ background-color:brown;
+ border-radius: 2px;
+ }
+ .navbar-brand {
+  color: azure;
+  text-decoration: none;
+  margin-left: 10px;
+ }
+ .container {
+  margin-top: 200px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ }
+ .ueberschrift {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+ }
+ .knopf {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .naviunten {
+  background-color: brown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 2px;
+ }
+ .llnav {
+    margin-top: 2%;
+ background-color:brown;
+ border-radius: 4px;
+ }
+.llnavu {
+    background-color: brown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 4px;
+}
+.prbild {
+    position: relative;
+    margin-left: 400px;  
+}
+.container-fluid {
+    color: azure;
+}
