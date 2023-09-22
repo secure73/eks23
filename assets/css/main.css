@@ -52,3 +52,19 @@ span {
     color: rgb(247, 244, 75);
     border-bottom: 0;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+} 
+img {
+    width: 350px;
+    border-radius: 400px;
+    margin: 10px 0px 0px 120px;
+    background-color: rgb(247, 244, 75);
+    padding: 6px;
+}
+.headline {
+    padding: 80px 350px 0px 0px;
+    font-size: 24px;
+    color: rgb(247, 244, 75);
+}
