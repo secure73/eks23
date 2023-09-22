@@ -1,0 +1,25 @@
+/* Div Red */
+
+.red{
+    background-color: red;
+
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Div Green */
+
+.green{
+    background-color: green;
+
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Table */
+
+table td{
+    border: 1px solid black;
+}
