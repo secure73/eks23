@@ -52,3 +52,36 @@ span {
     color: rgb(247, 244, 75);
     border-bottom: 0;
 }
+img {
+    object-fit: cover;
+    width: 350px;
+    height: 400px;
+    background-color: red;
+    padding: 16px;
+    margin: 30px 300px 0 0;
+}
+.headline {
+    color: rgb(247, 244, 75);
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 2px;
+}
+h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: green;
+}
+table {
+    margin: 0 0 0 150px;
+    table-layout: fixed;
+    width: 300px;
+    height: 0;
+    color: rgb(247, 244, 75);
+}
