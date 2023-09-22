@@ -1,13 +1,13 @@
-.body{
+.body {
     background-color: #ff0000;
 }
-.card-header, label{
+.card-header, label {
     color: #ffd700;
 }
-.card{
+.card {
     background-color: #000000;
 }
-.btn-primary{
+.btn-primary {
     background-color: #ff0000;
     border-color: #ff0000;
 }
@@ -31,29 +31,29 @@
     width: 350px;
     height: 350px;
 }
-.iron-man-navbar{
+.iron-man-navbar {
     background-color: #000;
     border-bottom: 2px solid #FF0000;
     padding: 10px 0;
 }
-.iron-man-navbar ul{
+.iron-man-navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-.iron-man-navbar li{
+.iron-man-navbar li {
     display: inline;
     margin-right: 20px;
 }
-.iron-man-navbar a{
+.iron-man-navbar a {
     text-decoration: none;
     color: #FF0000;
     font-weight: bold;
     font-size: 16px;
     transition: color 0.3s, background-color 0.3s;
 }
-.iron-man-navbar a:hover{
+.iron-man-navbar a:hover {
     color: #ffd700;
     background-color: #FF0000;
 }
@@ -64,6 +64,42 @@ body {
     text-align: center;
     padding: 20px;
 }
+  .container {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: gold;
+}
+
+table, td {
+    border: 4px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: right;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+td:first-child {
+    color: blue;
+}    
+td:nth-child(3), td:nth-child(4) {
+    text-align: right;
+}
+.red-div {
+    color: red;
+    padding: 10px;
+  }
+
+  .green-div {
+    color: green;
+    padding: 10px;
+  }
 .resume {
     margin: 0 auto;
     max-width: 1000px;
@@ -133,13 +169,3 @@ footer {
 hr {
     border: #000;
 }
-.red-div {
-    color: red;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .green-div {
-    color: green;
-    padding: 10px;
-  }
