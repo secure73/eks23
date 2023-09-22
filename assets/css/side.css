@@ -1,0 +1,126 @@
+
+body {
+    background-color: rgb(156, 200, 183);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}
+
+h1 {
+text-align: center;
+font-size: xx-large;
+text-decoration: underline;
+font-weight: bolder;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+    h2 .flex{ 
+        display:flex;
+        justify-content: right;
+    }
+
+    h6{
+        text-align: center;
+        text-decoration: underline;
+       font-size: larger;
+    }
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    section {
+        margin-top: 20px;
+    }
+    
+    article {
+        margin-left: 30px;
+    }
+    
+    ul {
+        list-style-type: disc;
+    }
+
+ h5 {
+float: right;
+}
+
+h8 {
+align-items: end;
+}
+nav ul {
+    list-style: none; 	 
+    width: 10em;
+    border: thin solid;
+    background-color: rgba(192, 192, 192, 0.159);
+
+  }
+  nav li {
+    margin: 0.5em; 
+    border: thin solid;
+    background-color: #eeeeee6f;
+  }
+  nav a {
+    text-decoration: none; 
+    font-weight: bold;
+    color: var(--accent1-color); 
+    background-color: var(--background-color);
+  }
+[aria-current=page]{
+	background: var(--accent2-color);
+}
+
+  nav a:focus,
+  nav a:hover,
+  nav a:active {    
+    text-decoration:underline;
+  }
+:root {
+	--background-color: midnightblue;
+	--accent1-color: gold;
+	--accent2-color: darkred;	
+	--text-color: black;
+}
+nav a {
+    display: block;
+    padding: 0.4em;
+    text-decoration: none; 
+    font-weight: bold;
+    border: thin solid var(--background-color);
+    border-radius: .5em;
+  color: var(--accent1-color); 
+  background-color: var(--background-color);
+    transition: all .25s ease-in;	  
+  }
+
+nav li[aria-current] a {
+  background-color: var(--accent2-color); 
+}
+  
+  nav a:focus,
+  nav a:hover,
+  nav li[aria-current] a:focus,
+  nav li[aria-current] a:hover 
+  
+    {
+    color: var(--background-color); 
+    background-color: var(--accent1-color); 
+}
