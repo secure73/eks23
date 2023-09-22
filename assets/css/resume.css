@@ -1,0 +1,129 @@
+header {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex;
+    vertical-align: middle;
+    width: 5cm;
+
+}
+
+li .nav-item {
+    width: 2cm;
+}
+
+.Bild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid rgba(23, 30, 230, 0.853);
+
+
+}
+
+.Daten {
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left: 380px;
+    columns: 3;}
+    
+    
+
+.Unterstrich {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin: auto;
+    height: 10px;
+    background-color:green;
+    margin-top: 10px;
+    border-radius: 5px;
+
+
+}
+
+.Unterstrich2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    margin: auto;
+    height: 10px;
+    background-color:red;
+    margin-top: 10px;
+    border-radius: 5px;}
+
+footer {
+
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #c5c8db, #0c30d1);
+    color: #fff;
+    padding: 10px 0px 10px;
+    border-top-left-radius: 125px;
+    font-size: 10px;
+    line-height: 5px;
+
+
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #c65834;
+
+}
+
+.copy {
+    font-size: 10px;
+    text-align: center;
+    align-items: stretch;
+    
+    
+    
+}
+
+ul {
+    width:10cm;
+    align-items: center;
+}
+
+table#Tabelle1 {
+    border: 1px solid black;
+    }
+    
+    table#Tabelle1 tr:nth-child(even) {
+    background-color: #eee
+    }
+    
+    table#Tabelle1 tr:nth-child(odd) {
+    background-color: #fff;
+    }
+    
+    table#Tabelle1 th {
+    color: white;
+    background-color: black;
+    padding: 4px 4px 2px 4px;
+    }
+    
+    table#Tabelle1 td {
+    border: 1px solid black;
+    padding: 2px;
+    }
+    
+    table#Tabelle1 tr:last-of-type td {
+    background-color: fffb99;
+    text-align: center;
+    }
+    
+    
