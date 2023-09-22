@@ -1,0 +1,179 @@
+.Login-Box{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-sizing: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.Login-Box h2{
+    margin: 0 0 30px;
+    pad: 0;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.Login-Box .User-Box{
+    position: relative;
+
+}
+
+.Login-Box .User-Box input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 31px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    
+}
+
+label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus ~ label, input:valid ~ label{
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+}
+
+.Login-Box form a{
+    color: #03e9f4;
+    text-transform: uppercase;
+}
+
+
+
+.navbar .container-fluid .navbar-header .navbar-brand img{
+    position: relative;
+    z-index: -1;
+    padding-top: 0;
+    padding-left: 595px;
+} 
+    
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.left .header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(112, 107, 107);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    transition: .5s;
+    user-select: none;
+     
+}
+
+.header-text{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    
+}
+.header-text h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linksseite{
+    width: 30%;
+    background-color: rgb(63, 194, 63);
+    text-align: center;
+}
+
+.linksseite .kontakt{
+    margin-top: 130px;
+    padding: 0 30px;
+    }
+
+    .kontakt h4{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .kontakt p{
+        font-size: 17px;
+    }
+.rechtsseite{
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(221, 79, 79);
+}
+.About h1{
+    margin-top: 10px;
+}
+.bg-dark{
+    position: absolute;
+    margin-top: 900px;
+    padding-top: 700px;
+    bottom: 0;
+    width: 100%;
+    }
+    .bg-dark i:hover{
+        color: white;
+        border:1px solid white;
+        transition: .5s;
+    }
+
+    .bg-leicht{
+        position: absolute;
+        margin-top: 900px;
+        padding-top: 700px;
+        padding-left: 750px;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 15px;
+        
+        }
+        .bg-leicht i:hover{
+            color: white;
+            border:1px solid white;
+            transition: .5s;
+        }
