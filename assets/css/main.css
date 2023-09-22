@@ -68,3 +68,47 @@ img {
     font-size: 24px;
     color: rgb(247, 244, 75);
 }
+ol {
+    list-style-type: none;
+  }
+.adress {
+    color:rgb(247, 244, 75);
+    margin: 50px 0px 0px 100px;
+}
+li {
+    font-size: 24px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    margin: 0 500px 0 0;
+}
+.signin {
+    font-weight: bold;
+    color: rgb(247, 244, 75);
+    display: inline-block;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 3px;
+}
+.input-group {
+    min-width: 300px;
+}
+.input-group-addon {
+    border: none;
+}
+.float {
+    margin-top: 20px;
+    border: none;
+    font-size: 1.6em;
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 3px;
+    background-color: rgb(247, 244, 75);
+    color: red;
+}
+.float:hover, .float:focus, .float:active {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
