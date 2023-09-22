@@ -1,0 +1,96 @@
+header {
+    color: azure;
+    text-align: left;
+    background-image: url(../images/NightLitGotham.jpg);                   
+    background-repeat: no-repeat;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    margin-bottom: 50px;
+}
+
+nav {
+    opacity: 0.7;
+    color: azure;
+    border: 1px solid azure;
+    border-radius: 20px;
+    left: 22vw;
+    margin-right: 37vw;
+    margin-left: 30vw;
+}
+
+.nav-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+
+    .seperate {
+        color: rgb(5, 4, 73);
+        display: flex;
+        flex: 1;
+        justify-items: flex-start;
+    }
+
+    #mainfont-address {
+        margin-left: 5px;
+    }
+
+    #mainfont-address, #font-address {
+        font-size: larger;
+        font-weight: bolder;
+        color: rgb(5, 4, 73);
+    }
+
+    #font-address:hover {
+        color: azure;
+        background-color: rgb(5, 4, 73);
+        opacity: 0.8;
+        border-radius: 10px;
+    }
+
+
+main {
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .logincontainer-fluid {
+        margin-top: 5px;
+    }
+
+    .card-header {
+        font-size: x-large;
+    }
+
+    div .card {
+        background-color: rgba(255, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+
+    .a #form-label {
+        margin-top: 10px;
+    }
+
+    #form-label {
+        color: azure;
+    }
+
+    .form-control {
+        display: block;
+        justify-items: flex-start;
+        margin-bottom: 25px;
+    }
+
+    #form-link {
+        color: azure;
+        margin-top: 10px;
+    }
+
+    #form-link:hover {
+        color: rgb(124, 123, 212);
+    }

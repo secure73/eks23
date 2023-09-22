@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    
+    <head>
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <title id="login-site" class="login-site">Login-Seite</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
+    
+    </head>
+    
+    
+    <body>
+        
+        <header>
+
+                <h1>Super-Lebensläufe</h1>
+                <h3 id="description">Get your VIP-CVs here!</h3>
+
+
+<!--von Bootstrap übernommen-->  
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <div class="seperate"><a class="navbar-brand"><span id="mainfont-address">Navbar</span></a></div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <div class="seperate"><a class="nav-link" href="index.html"><span id="font-address">Home</span></div>
+                                <div class="seperate"><a class="nav-link disabled" aria-current="page" href="login.html" aria-disabled="true"><span id="font-address">Login-Seite</span></a></div>
+                                <div class="seperate"><a class="nav-link" href="resume.html"><span id="font-address">Lebensläufe</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+<!--Ende-->
+
+        </header>
+        
+        
+                
+        
+<!--Die Login-Form von Bootstrap übernommen-->        
+                <main id="main-screen">
+             
+                    <div class="logincontainer-fluid">
+                        <div class="row justify-content-center align-items-center vh-5">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" id="form-label">Login</div>
+                                    <div class="card-body">
+                                        <form action="resume.html">
+                                            <div class="form-group">
+                                                <label for="email" id="form-label">E-Mail-Adresse:</label>
+                                                <input type="email" class="form-control" id="email" name="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password" id="form-label">Passwort:</label>
+                                                <input type="password" class="form-control" id="password" name="password" required>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Anmelden</button>
+                                            <br><a href="resume.html" target="_blank" id="form-link">Lebenslauf</a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+<!--Ende-->
+                
+            <footer class="readable">Erstellt: 22.09.2023; No rights reserved; Website designed by <a href="assets/images/7639100-rco001_1592321059.jpg" alt="the question by DC" target="_blank" id="person">"Anonymous Coder"</a></footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
