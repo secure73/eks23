@@ -159,3 +159,7 @@ header /* ROT */{
     border: solid black 1px;
     border-radius: 20px;
 }
+.key{
+    width: 16px;
+    height: 16px;
+}
