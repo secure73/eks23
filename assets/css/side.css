@@ -124,3 +124,15 @@ nav li[aria-current] a {
     color: var(--background-color); 
     background-color: var(--accent1-color); 
 }
+.rot {
+    background-color: red;
+}
+.grün {
+    background-color: green;
+}
+.tabelle {
+    table, th, td { border: thin solid; }
+#coll { border-collapse: collapse; }
+#sepa { border-collapse: separate; margin-top: 2em; }
+caption { text-align: left; }
+}
