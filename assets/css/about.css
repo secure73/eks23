@@ -85,3 +85,10 @@ table {
     height: 0;
     color: rgb(247, 244, 75);
 }
+ul {
+    margin: 0 0 0 120px;
+    color: rgb(247, 244, 75);
+}
+li {
+    margin: 0 0 0 20px;
+}
