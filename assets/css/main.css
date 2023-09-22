@@ -94,3 +94,109 @@ main {
     #form-link:hover {
         color: rgb(124, 123, 212);
     }
+
+
+    .contained {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(255, 0, 0, 0.5);
+        padding: 50px;
+        padding-bottom: 25%;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        border-radius: 5px;
+    }
+        .Überschrift {
+            color: rgb(59, 59, 59);
+        }
+    
+    
+    .profile {
+        display: flex;
+        align-items: flex-start;
+    }
+        .container1 {
+            color: rgb(59, 59, 59);
+            max-width: 25vw;
+        }
+        .container2 {
+           margin-left: 0;
+           max-width: 30vw;
+        }
+    
+        .container1, .container2 {
+            flex: 1;
+            margin-bottom: 10vh;
+        }
+    
+        .picture {
+            background-image: url("../images/Bruce_Wayne_\(The_Dark_Knight_Trilogy\).jpg");
+            background-size: cover;
+            width: 10vw;
+            height: 20vh;
+            
+        }
+    
+    
+    .date-content-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+        .datum {
+            color: rgb(59, 59, 59);
+            max-width: 25vw;
+        }
+    
+        .inhalt {
+            max-width: 30vw;
+        }
+    
+        .datum, .inhalt {
+            flex: 1;
+            margin-bottom: 10vh;    
+        }
+    
+    
+    ul {
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 5px;
+    }
+        
+        .right-side li {
+            list-style-type: none;
+        }
+    
+    
+    .readable {
+        color:rgb(5, 4, 73);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #person:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    h4 {
+        color:rgb(59, 59, 59);
+    }
+    
+    footer {
+        margin-bottom: 0vh;
+        margin-left: 5vw;
+    }
+
+    table {
+        border: 1px solid black;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .green {
+        background-color: green;
+    }
