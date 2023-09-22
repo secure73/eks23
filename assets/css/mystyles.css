@@ -1,0 +1,68 @@
+.flex{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+body{
+    background-color: black;
+}
+
+label{
+    color: #AAAAAA; 
+}
+
+h1{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    font-size: 7vw; 
+    letter-spacing: 1.1vw;
+}
+
+h2{
+    letter-spacing: 0.7vw;
+}
+
+.bgh1{
+    background-color: black; 
+    color: antiquewhite; 
+    text-align: center;
+}
+
+.cvdata{
+    background-color: #AAAAAA; 
+    color:#232323; 
+    padding-top: 5%; 
+    padding-left: 4%;
+}
+
+.cvaddress{
+    background-color: black; 
+    color: #AAAAAA;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cvaddresstext{
+    padding-bottom: 5%;
+}
+
+
+.footer{
+    background-color: black; 
+    color: #AAAAAA; 
+    text-align: center;
+    border-style:inset;
+}
+
+.redgreen{
+    background-color: green; color: red;
+    font-size: x-large;
+    text-align: right;
+}
+
+.greenred{
+    background-color: red; color: green;
+    font-size: x-large;
+    text-align: left;
+}
